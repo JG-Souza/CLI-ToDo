@@ -1,4 +1,7 @@
 from features import ver_tarefa, add_tarefa, edit_tarefa
+from db import cria_tabela, salva_no_db
+
+cria_tabela()
 
 while True:
     escolha = int(input('''O que você quer fazer agora? 
